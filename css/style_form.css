@@ -1,0 +1,60 @@
+
+body{
+    display:flex;
+    justify-content: center;
+}
+h2{
+    text-transform: capitalize;
+}
+.main-div{
+    height: 500px;
+    width: 300px;
+    background-color: rgb(119, 177, 228);
+    border-radius: 8px;
+}
+.main-div-table,.main-div-view table{
+    background-color: rgb(190, 212, 218);
+    margin-top: -20px;
+}
+.main-div-table,.main-div-view h2{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    background: rgb(0, 99, 124);
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+.main-div h2 {
+    text-align: center;
+}
+.done-btn{
+    margin-top: 10px;
+    text-align: center;    
+}
+.contact_form{
+
+  margin-left: 50px;
+}
+
+.form_field{
+    margin-bottom: 20px;
+}
+.contact_form .form_field input{
+   
+    margin-bottom: 20px;   
+} 
+.contact_form .form_field label{
+    text-align: left;
+    font-weight:bolder ;
+    margin-right: 30px;
+}
+form ul li{
+    margin: 10px 0 10px 0;
+    list-style: none;
+}
+.link{
+    margin-top:50px;
+}
+.link a{    
+    font-size:small;
+    color: black;
+}
